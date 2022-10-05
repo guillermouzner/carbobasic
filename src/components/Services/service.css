@@ -1,0 +1,160 @@
+.container__service {
+    display: grid;
+    justify-content: center; 
+    margin-top: 4.5rem;
+    
+}
+
+.service {
+    background-color: rgb(21, 141, 67);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 15px;
+    text-align: center;
+    width: 15%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.description__service {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.description__service p{
+    margin: 0.5rem;
+    font-weight: bold;
+}
+
+
+.service__card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 65%;
+    margin: 0 auto;
+}
+
+.card__service {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 3rem;
+}
+
+.card__service p {
+    font-size: 13px;
+    text-align: left;
+}
+
+.card__service h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+    border: 2px solid green;
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+.card__service img {
+    width: 250px;
+    height: 180px;
+}
+
+
+/*================ BREAKPOINTS ================*/
+/*For large devices */
+@media screen and (max-width: 992px){
+    .service {
+        font-size: 0.8rem;
+        width: 20%;
+    }
+
+    .description__service {
+        width: 85%;
+    }
+
+    .service__card {
+        width: 85%;
+    }
+
+    .card__service h1 {
+        font-size: 20px;
+    }
+
+    .card__service p {
+        font-size: 12px;
+    }
+
+}
+
+/*For medium devices */
+@media screen and (max-width: 800px){
+    .container__service {
+        margin-top: 1.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 663px){
+    .service {
+        width: 25%;
+    }
+    .description__service p{
+        font-size: 14px;
+    }
+
+    .service__card {
+        grid-template-columns: auto;
+    }
+
+    .card__service {
+        display: grid;
+        grid-template-columns: 40% 70%;
+    }
+
+    .card__service img {
+        margin-top: 40px;
+    }
+
+    .card__service p {
+        margin-left: 1rem;
+    }
+
+    .card__service h1 {
+        margin-top: 0rem;
+        margin-bottom: 10px;
+        width: 50%;
+        font-size: 15px;
+    }
+}
+
+/*For small devices */
+@media screen and (max-width: 475px){
+    .service {
+        width: 30%;
+        font-size: 11px;
+
+    }
+    .description__service {
+        width: 95%;
+    }
+
+    .description__service p {
+        font-size: 12px;
+    }
+
+    .service__card {
+        width: 95%;
+    }
+
+    .card__service p {
+        font-size: 11px;
+    }
+
+    .card__service h1 {
+        width: 70%;
+
+    }
+}

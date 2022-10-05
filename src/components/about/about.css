@@ -1,0 +1,221 @@
+.container__about {
+    display: grid;
+    justify-content: center; 
+    margin-top: 4.5rem;
+}
+
+.about {
+    background-color: rgb(21, 141, 67);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 15px;
+    text-align: center;
+    width: 15%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about__me {
+    background-color: rgb(21, 141, 67);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 15px;
+    text-align: center;
+    width: 18%;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about__subtitle {
+    display: grid;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: black
+}
+
+.description__about {
+    display: grid;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.description__about p{
+    margin: 0.5rem;
+    font-weight: bold;
+}
+
+.about__card {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.card__mission {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card__mission p {
+    margin-left: 2rem;
+    font-weight: bold;
+}
+
+.card__mission h1 {
+    color: rgb(9, 184, 9);
+    font-weight: bold;
+}
+
+.card__aboutMe {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 25px;
+}
+
+.card__aboutMe img{
+    width: 500px;
+    border-radius: 1.5rem;
+    justify-self: center;
+    margin-right: 3rem;
+}
+
+.card__aboutMe h1 {
+    color: rgb(9, 184, 9);
+    padding-left: 0.2rem;
+    text-align: left;
+}
+
+.card__aboutMe span {
+    font-weight: bold;
+}
+
+.description__about-me {
+    margin-top: 1rem;
+}
+
+.description__about-me h1 {
+    color: rgb(9, 184, 9);
+    padding-left: 0.2rem;
+    text-align: left;
+}
+
+.description__about-me p {
+    margin-bottom: 2rem;
+}
+
+.description__about-me span {
+    font-weight: bold;
+}
+
+/*================ BREAKPOINTS ================*/
+/*For large devices */
+@media screen and (max-width: 992px){
+    .about {
+        width: 20%;
+        font-size: 0.9rem;
+    }
+
+    .about__me {
+        width: 20%;
+        font-size: 0.9rem;
+    }
+
+    .about__card {
+        width: 80%;
+    }
+
+    .description__about {
+        width: 80%;
+    }
+
+}
+
+/*For medium devices */
+@media screen and (max-width: 800px){
+
+    .container__about {
+        margin-top: 1.5rem;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 663px){
+    .about {
+        width: 25%;
+        font-size: 0.8rem;
+    }
+
+    .about__me {
+        width: 25%;
+        font-size: 0.8rem;
+    }
+
+    .about__card {
+        width: 95%;
+        font-size: 13px;   
+    }
+
+    .description__about {
+        width: 95%;
+    }
+
+    .description__about p{ 
+        font-size: 12px;   
+    }
+
+}
+
+/*For small devices */
+@media screen and (max-width: 475px){
+    .about h1{
+        font-size: 1rem;
+    }
+
+    .about__me h1 {
+        font-size: 1rem;
+    }
+
+    .about__subtitle {
+        font-size: 0.5rem;
+    }
+
+    .card__aboutMe {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 1rem;
+    }
+
+    .card__aboutMe img{
+        width: 250px;
+    }
+
+    .card__aboutMe h1 {
+        padding-top: 1rem;
+        padding-left: 0.2rem;
+    }
+
+    .about__card {
+        font-size: 11px;   
+    }
+
+    .description__about-me {
+        margin: 1rem
+    }
+
+    .card__mission img{
+        display: none;
+    }
+
+    .card__mission p {
+        margin-left: 1rem;
+    }
+
+
+}
