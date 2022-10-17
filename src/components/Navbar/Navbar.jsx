@@ -1,9 +1,34 @@
-import React, { useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./navbar.css";
+import Translation from "./Data.json";
+import { DataContex } from "../../context/DataContext";
+
+// import { Routes, Route } from "react-router-dom";
+// import Home from "../home/Home";
+// import About from "../about/About";
+// import Services from "../Services/Service";
+// import Projects from "../Portfolio/Portfolio";
+// import Contact from "../Contact/Contact";
+// import Blog from "../Blog/Blog";
+//import Pages from "../Pages/Pages";
 
 const Navbar = () => {
+    const { idiom, setIdiom } = useContext(DataContex);
+
     const [Toggle, showMenu] = useState(false);
+
+    // const [language, setLanguage] = useState(idiom);
+
+    const [content, setContent] = useState({});
+
+    useEffect(() => {
+        if (idiom === "eng") {
+            setContent(Translation.eng);
+        } else if (idiom === "esp") {
+            setContent(Translation.esp);
+        }
+    }, [idiom]);
 
     return (
         // className="header"
@@ -12,7 +37,7 @@ const Navbar = () => {
                 <div>
                     <nav className="nav container">
                         <Link to="/" className="nav__logo">
-                            CarboBasic
+                            {content.Title}
                         </Link>
 
                         <div
@@ -86,16 +111,25 @@ const Navbar = () => {
                     </nav>
                 </div>
                 <div className="idioms">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1200px-Flag_of_Argentina.svg.png"
-                        alt="/"
-                    />
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png"
-                        alt="/"
-                    />
+                    <select
+                        value={idiom}
+                        onChange={(e) => {
+                            setIdiom(e.target.value);
+                        }}
+                    >
+                        <option>eng</option>
+                        <option>esp</option>
+                    </select>
                 </div>
             </div>
+            {/* <Routes>
+                <Route path="/" element={<Home language={language} />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/services" element={<Services />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/blog/*" element={<Blog />} />
+            </Routes> */}
         </>
     );
 };

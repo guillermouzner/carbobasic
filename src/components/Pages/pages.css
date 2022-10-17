@@ -1,0 +1,15 @@
+.container__pages {
+    width: 70%;
+    margin: 4.5rem auto
+}
+
+.back__list {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.card__list {
+    margin: 1rem auto;
+}

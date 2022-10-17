@@ -1,0 +1,10 @@
+{
+    "eng": {
+        "Title": "CarboBasic",
+        "Description": "Translate web content into multiple language"
+    },
+    "esp": {
+        "Title": "CarboBasic español",
+        "Description": "esto es una descripcion"
+    }
+}
