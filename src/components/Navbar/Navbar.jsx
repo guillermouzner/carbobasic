@@ -4,15 +4,6 @@ import "./navbar.css";
 import Translation from "./Data.json";
 import { DataContex } from "../../context/DataContext";
 
-// import { Routes, Route } from "react-router-dom";
-// import Home from "../home/Home";
-// import About from "../about/About";
-// import Services from "../Services/Service";
-// import Projects from "../Portfolio/Portfolio";
-// import Contact from "../Contact/Contact";
-// import Blog from "../Blog/Blog";
-//import Pages from "../Pages/Pages";
-
 const Navbar = () => {
     const { idiom, setIdiom } = useContext(DataContex);
 
@@ -23,15 +14,14 @@ const Navbar = () => {
     const [content, setContent] = useState({});
 
     useEffect(() => {
-        if (idiom === "eng") {
+        if (idiom === "English") {
             setContent(Translation.eng);
-        } else if (idiom === "esp") {
+        } else if (idiom === "Spanish") {
             setContent(Translation.esp);
         }
     }, [idiom]);
 
     return (
-        // className="header"
         <>
             <div className="header">
                 <div>
@@ -117,19 +107,11 @@ const Navbar = () => {
                             setIdiom(e.target.value);
                         }}
                     >
-                        <option>eng</option>
-                        <option>esp</option>
+                        <option>English</option>
+                        <option>Spanish</option>
                     </select>
                 </div>
             </div>
-            {/* <Routes>
-                <Route path="/" element={<Home language={language} />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/services" element={<Services />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/blog/*" element={<Blog />} />
-            </Routes> */}
         </>
     );
 };

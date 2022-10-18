@@ -8,14 +8,31 @@ const Pages = () => {
 
     const [blog, setBlog] = useState([]);
 
+    const [loading, setLoading] = useState(false);
+
     useEffect(() => {
+        setLoading(true);
         axios
             .post(`http://localhost:4000/notion-api-read/${niceUrl}`)
             .then((response) => {
                 setBlog(response.data);
+                setLoading(false);
             })
             .catch((error) => console.log(error));
     }, [niceUrl]);
+
+    if (loading)
+        return (
+            <div className="container__loading">
+                <div className="spinner">
+                    Loading...
+                    <div className="spinner-sector spinner-sector-red"></div>
+                    <div className="spinner-sector spinner-sector-blue"></div>
+                    <div className="spinner-sector spinner-sector-green"></div>
+                    <div className="spinner-sector spinner-sector-orange"></div>
+                </div>
+            </div>
+        );
 
     return (
         <>
