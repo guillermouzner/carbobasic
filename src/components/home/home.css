@@ -15,10 +15,10 @@
 .container__p {
     margin-top: 5rem;
     font-size: 2.5rem;
-    color: rgb(42, 42, 141);
+    color: var(--carbo-color-blue);
     border: 2.5px solid;
     border-radius: 20px;
-    border-color: rgb(16, 156, 16) ;
+    border-color: var(--carbo-color-green) ;
 }
 
 .container__p p {
@@ -33,7 +33,7 @@
 }
 
 .container__p:hover {
-    background-color: green;
+    background-color: var(--carbo-color-green);
     transition: 1s;
 }
 

@@ -100,7 +100,7 @@ const Navbar = () => {
                         </div>
                     </nav>
                 </div>
-                <div className="idioms">
+                <div className={Toggle ? "idioms show-menu" : "idioms"}>
                     <select
                         value={idiom}
                         onChange={(e) => {

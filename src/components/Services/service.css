@@ -6,7 +6,7 @@
 }
 
 .service {
-    background-color: rgb(21, 141, 67);
+    background-color: var(--carbo-color-green);
     font-size: 1rem;
     font-weight: bold;
     border-radius: 15px;
@@ -51,8 +51,8 @@
     margin-bottom: 1rem;
     font-size: 25px;
     font-weight: bold;
-    color: blue;
-    border: 2px solid green;
+    color: var(--carbo-color-blue);
+    border: 2px solid var(--carbo-color-green);
     border-radius: 0.75rem;
     text-align: center;
 }

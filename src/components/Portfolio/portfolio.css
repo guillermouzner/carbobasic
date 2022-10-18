@@ -5,7 +5,7 @@
 }
 
 .project {
-    background-color: rgb(21, 141, 67);
+    background-color: var(--carbo-color-green);
     font-size: 1rem;
     font-weight: bold;
     border-radius: 15px;
@@ -15,7 +15,7 @@
 }
 
 .project__record {
-    background-color: rgb(21, 141, 67);
+    background-color: var(--carbo-color-green);
     font-size: 1rem;
     font-weight: bold;
     border-radius: 15px;
@@ -34,7 +34,7 @@
 .project__record-content h1 {
     text-transform: uppercase;
     font-size: 30px;
-    color: rgb(21, 141, 67);
+    color: var(--carbo-color-green);
     padding-bottom: 15px;
 }
 
@@ -59,11 +59,11 @@
 .carb__project span {
     font-weight: bold;
     font-size: 18px;
-    color: rgb(0, 0, 129);
+    color: var(--carbo-color-blue);
 }
 
 .project__record-content span {
-    color: rgb(0, 0, 129);
+    color: var(--carbo-color-blue);
 }
 
 .milton__proyects {
@@ -83,9 +83,9 @@
 }
 
 .portfolio__button {
-    color: rgb(0, 0, 129);
+    color: var(--carbo-color-blue);
     font-size: 15px;
-    border: 1.5px solid rgb(0, 0, 129);
+    border: 1.5px solid var(--carbo-color-blue);
     border-radius: 5px;
     cursor: pointer;
     padding: 3px;
@@ -94,7 +94,7 @@
 
 .portfolio__button.active  {
     color: aliceblue;
-    background-color: rgb(0, 0, 129);
+    background-color: var(--carbo-color-blue);
     transition: all 0.6s;
 }
 
@@ -153,7 +153,7 @@
 }
 
 .services__button {
-    color: red;
+    color: var(--carbo-color-blue);
     font-size: 1rem;
     display: inline-flex;
     align-items: center;
@@ -177,7 +177,6 @@
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    /* z-index: var(--z-modal); */
     z-index: 1000;
     display: flex;
     justify-content: center;
@@ -191,8 +190,7 @@
 .services__modal-content {
     width: 400px;
     position: relative;
-    /* background-color: var(--container-color); */
-    background-color: rgb(21, 141, 67);
+    background-color: var(--carbo-color-green);
     padding: 2.5rem;
     border-radius: 1.5rem;
 }
@@ -202,8 +200,7 @@
     top: 1.5rem;
     right: 1.5rem;
     font-size: 1.5rem;
-    /* color: var(--title-color); */
-    color: rgb(0, 0, 129);
+    color: var(--carbo-color-blue);
     cursor: pointer;
 }
 /************************/
@@ -212,21 +209,13 @@
 }
 
 .services__modal-title {
-    /* font-size: var(--h3-font-size); */
     font-size: 2rem;
-    color: rgb(0, 0, 129);
+    color: var(--carbo-color-blue);
     text-transform: uppercase;
-    /* font-weight: var(--font-medium); */
+
     font-weight: bold;
     margin-bottom: 1rem;
 }
-
-/* .services__modal-description {
-    color: white;
-    font-size: 0.875rem;
-    padding: 0 3.5rem;
-    margin-bottom: 2rem;
-} */
 
 .services__modal-services {
     row-gap: 0.75rem;
@@ -239,7 +228,7 @@
 }
 
 .services__modal-icon {
-    color: rgb(0, 0, 129);
+    color: var(--carbo-color-blue);
     font-size: 1.1rem;
 }
 
@@ -278,18 +267,17 @@
     width: 70%;
     height: 45px;
     position: absolute;
-    /* position: relative; */
+
     top: 0;
-    /* bottom: 0; */
+
     bottom: 1;
     left: 0;
     right: 0;
     margin: auto;
-    /* padding-top: 10px; */
+
     text-align: center;
     z-index: 1;
-    /* opacity: 0; */
-    /* transition: all 0.5s; */
+
 
 }
 
@@ -301,7 +289,7 @@
 
     border-top-width: 10px;
     border-top-style: solid;
-    border-top-color: rgb(21, 141, 67);
+    border-top-color: var(--carbo-color-green);
     border-radius: 1px;
 }
 
@@ -319,7 +307,7 @@
     content: '';
     width: 70%;
     height: 47%;
-    background:rgb(21, 141, 67);
+    background:var(--carbo-color-green);
     position: absolute;
     left: 0;
     right: 0;

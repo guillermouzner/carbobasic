@@ -5,9 +5,8 @@
     left: 0;
     display: grid;
     grid-template-columns: 85% 15%;
-    background-color: var(--body-color);
     z-index: 100;
-    /* background-color: var(--body-color); */
+    background-color: var(--body-color);
     box-shadow: 0px 0px 1px;
    
 }
@@ -37,7 +36,7 @@
 
 .nav__logo,
 .nav__toggle {
-    color: var(--title-color);
+    color: var(--carbo-color-blue);
     font-weight: var(--font-medium);
 }
 
@@ -51,7 +50,7 @@
     flex-direction: column;
     align-items: center;
     font-size: 1.1rem;
-    color: blue;
+    color: var(--carbo-color-blue);
     text-transform: uppercase;
     font-weight: var(--font-medium);
     transition: .3s;
@@ -68,7 +67,7 @@ select {
   letter-spacing: 0.5px;
   padding: 2px 8px;
   cursor: pointer;
-  border: 1px solid green;
+  border: 1px solid var(--carbo-color-green);
   border-radius: 5px;
   background-image: url(../../assets/down-arrow.svg);
   background-repeat: no-repeat;
@@ -83,7 +82,7 @@ select::-ms-expand{
 }
 
 select:hover{
-  border: 1px solid blue;
+  border: 1px solid var(--carbo-color-blue);
 }
 
 .nav__icon,
@@ -93,7 +92,7 @@ select:hover{
 }
 
 .nav__link.active {
-  color:rgb(21, 141, 67);
+  color:var(--carbo-color-green);
   transition: all 0.5s;
   text-decoration-line: underline;
   text-decoration-thickness: 2px;
@@ -105,6 +104,10 @@ select:hover{
     .nav__list {
       column-gap: 1rem;
     }
+
+    select option{
+      font-size: 10px;
+    }
 }
 
 
@@ -115,12 +118,14 @@ select:hover{
     top: initial;
     bottom: 0;
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 80% 20%;
+    justify-content: space-between;
   }
 
   .nav {
     /* height: var(--header-height); */
     height: 3rem;
+    justify-content: space-between;
   }
 
   .nav__link {
@@ -146,6 +151,7 @@ select:hover{
   /* Show Menu*/
   .show-menu {
     bottom: 0;
+
   }
 
   .nav__list {
@@ -159,20 +165,31 @@ select:hover{
   }
 
   .idioms{
-    display: none;
+    justify-content: center
+  }
+
+  select {
+    background-image: url(../../assets/up-arrow.svg);
+  }
+
+  select option{
+    font-size: 10px;
+    width: 150px;
+    white-space:pre-wrap;
+    word-wrap: break-word;
   }
 
   .nav__close {
     position: absolute;
     right: 1.3rem;
-    bottom: .5rem;
+    bottom: 12rem;
     font-size: 1.5rem;
     cursor: pointer;
-    color: var(--title-color)
+    color: black;
   }
 
   .nav__close:hover {
-    color: var(--title-color-dark);
+    color: grey;
   }
 
   .nav__toggle {
@@ -185,6 +202,24 @@ select:hover{
   .nav__close,
   .nav__toggle {
     display: block;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .header{
+    box-sizing: border-box;
+    top: initial;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    justify-content: space-between;
+  }
+
+  select {
+    font-size: 15px;
+    letter-spacing: 0px;
+    padding: 2px 7px;
+    width: 100px;
   }
 }
 

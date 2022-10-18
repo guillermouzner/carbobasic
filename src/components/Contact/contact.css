@@ -1,13 +1,12 @@
 .container__contact {
     display: grid;
     justify-content: center;
-    /* margin-top: 4.5rem; */
     margin: 4.5rem auto;
 
 }
 
 .contact {
-    background-color: rgb(21, 141, 67);
+    background-color: var(--carbo-color-green);
     font-size: 1rem;
     font-weight: bold;
     border-radius: 15px;
@@ -59,7 +58,7 @@
 
 .contact__card-icon {
     font-size: 2rem;
-    color: var(--title-color);
+    color: black;
     margin-bottom: var(--mb-0-25)
 }
 
@@ -78,7 +77,7 @@
 }
 
 .contact__button {
-    color: var(--text-color);
+    color: black;
     font-size: var(--small-font-size);
     display: inline-flex;
     align-items: center;
@@ -113,7 +112,7 @@
     height: 100%;
     border: 2px solid rgba(0, 0, 0, 0.3);
     background: none;
-    color: var(--text-color);
+    color: black;
     outline: none;
     border-radius: 0.75rem;
     padding: 1.5rem;
@@ -143,7 +142,6 @@
     text-align: center;
     margin: 0 auto;
     display: grid;
-    /* grid-template-columns: 30% 30% 30%; */
     grid-template-columns: 30% 30% 30%;
     justify-content: space-around;
 }
@@ -154,18 +152,18 @@
 }
 
 .carb__contact h1 {
-    color: rgb(21, 141, 67);
+    color: var(--carbo-color-green);
     text-transform: capitalize;
     font-size: 28px;
 }
 
 .carb__contact p {
-    color: rgb(0, 0, 129);
+    color: var(--carbo-color-blue);
     font-size: 15px;
 }
 
 .carb__contact a {
-    color: rgb(21, 141, 67);
+    color: var(--carbo-color-green);
     font-size: 16px;
     font-weight: bold;
 }
