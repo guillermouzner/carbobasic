@@ -11,6 +11,7 @@ import Projects from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
 import Blog from "./components/Blog/Blog";
 import Pages from "./components/Pages/Pages";
+import Footer from "./components/Footer/Footer";
 
 function App() {
     return (
@@ -29,6 +30,7 @@ function App() {
                         <Route path="/blog/:niceUrl" element={<Pages />} />
                         <Route path="*" element={<NotFound />} />
                     </Routes>
+                    <Footer />
                 </Router>
             </div>
         </DataProvider>

@@ -1,0 +1,116 @@
+.footer {
+    background-color: var(--carbo-color-blue);
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__img {
+    width: 55px;
+    height: 80px;
+    margin-right: 1rem;
+}
+
+.footer__info {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-transform: uppercase;
+    margin-right: 5rem;
+    align-items: center;
+}
+
+.box1 h1{
+    color: white;
+    font-weight: bold;
+
+}
+
+.box1 span {
+    color: var(--carbo-color-green)
+
+}
+
+.box1 h3 {
+    color: white;
+}
+
+.box1 {
+    line-height:1.2;
+    margin-top: 1rem;
+}
+
+
+.footer__social {
+    margin-left: 1rem ;
+    margin-top: 0.4rem;
+    width: 60%;
+    color: white;
+}
+
+.footer__copy {
+    display: flex;
+    justify-content:initial;
+    margin-top: 1rem;
+    color: white;
+    text-align: center;
+    font-size: var(--smaller-font-size);
+}
+
+.social__links {
+    display: flex;
+}
+
+.linkedin, .facebook {
+    padding-top: 0.5rem;
+    padding-right: 1.5rem;
+}
+
+/*================ BREAKPOINTS ================*/
+/*For large devices */
+/* @media screen and (max-width: 992px){
+    .footer__social-link {
+        padding: 0.25rem;
+        border-radius: 0.25rem;
+        font-size: 1rem;
+    }
+    
+  } */
+  
+/*================ BREAKPOINTS ================*/
+/*For large devices */
+@media screen and (max-width: 992px){
+    
+}
+
+/*For medium devices */
+@media screen and (max-width: 800px){
+    .footer {
+        grid-template-columns: auto auto;
+    }
+    
+
+}
+
+@media screen and (max-width: 650px){
+    .footer {
+        grid-template-columns: auto;
+        padding: 0.2rem
+    }
+
+    .footer__info {
+        display: none;
+    }
+
+    .footer__copy {
+        padding-left: 5.5rem;
+    }
+
+}
+
+/*For small devices */
+@media screen and (max-width: 404px){
+
+}

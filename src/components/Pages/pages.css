@@ -66,29 +66,33 @@
 }
 
 .spinner-sector-red {
-    border-top-color: #cf2c20;
+    border-left-color: var(--carbo-color-blue);
+
     --duration: 1.5s;
     --timing: ease-in-out;
 
 }
 
-.spinner-sector-blue {
-    border-left-color: #2454df;
+.spinner-sector-red {
+    border-right-color: var(--carbo-color-green);
+
+    /* border-left-color: #379b26; */
     --duration: 2s;
     --timing: ease-in;
 
 }
 
 .spinner-sector-red {
-    border-right-color: #258342;
+    border-top-color: #389b26;
+
+    /* border-right-color: #70f255; */
     --duration: 2.5s;
     --timing: ease-out;
 
 }
 
 .spinner-sector-red {
-    border-bottom-color: #f0a204;
+    border-bottom-color: #092c3f;
     --duration: 3s;
     --timing: ease-in-out
-
 }

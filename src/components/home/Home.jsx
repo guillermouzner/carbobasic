@@ -20,7 +20,8 @@ const Home = (props) => {
                 <img src={milton} alt="home" />
                 <div className="container__p">
                     <p>
-                        {content.Title} <span>Engineering Consultation</span>
+                        {content.title}Leaders in{" "}
+                        <span>Engineering Consultation</span>
                     </p>
                 </div>
             </div>

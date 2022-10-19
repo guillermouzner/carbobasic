@@ -74,6 +74,8 @@ select {
   background-size: 12px;
   background-position: 78px 5px;
   outline: none;
+  color: var(--carbo-color-blue);
+  font-weight: 600;
 }
 
 
