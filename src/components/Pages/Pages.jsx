@@ -13,7 +13,9 @@ const Pages = () => {
     useEffect(() => {
         setLoading(true);
         axios
-            .post(`http://localhost:4000/notion-api-read/${niceUrl}`)
+            .post(
+                `https://carbobasic-backend.herokuapp.com/notion-api-read/${niceUrl}`
+            )
             .then((response) => {
                 setBlog(response.data);
                 setLoading(false);

@@ -11,7 +11,7 @@ const Blog = () => {
     useEffect(() => {
         setLoading(true);
         axios
-            .post("http://localhost:4000/notion-api")
+            .post("https://carbobasic-backend.herokuapp.com/notion-api")
             .then((response) => {
                 setBlog(response.data);
                 setLoading(false);
