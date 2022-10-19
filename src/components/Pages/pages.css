@@ -1,6 +1,7 @@
 .container__pages {
     width: 70%;
-    margin: 4.5rem auto
+    margin: 4.5rem auto;
+    min-height: 100vh;
 }
 
 .back__list {

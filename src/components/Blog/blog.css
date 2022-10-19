@@ -1,5 +1,6 @@
 .container__blog {
     margin-top: 4.5rem;
+    min-height: 100vh;
 }
 
 .card {
