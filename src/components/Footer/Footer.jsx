@@ -28,7 +28,7 @@ const Footer = () => {
                     className="linkedin"
                     to="https://www.linkedin.com/in/milton-avila-5b729419"
                 >
-                    <FaLinkedinIn size="2.5rem" color="#092c3f" />
+                    <FaLinkedinIn size="2.5rem" color="white" />
                 </Link>
 
                 <Link
@@ -36,9 +36,10 @@ const Footer = () => {
                     to="https://www.facebook.com/Carbobasic/"
                 >
                     {" "}
-                    <FaFacebook size="2.5rem" color="#092c3f" />{" "}
+                    <FaFacebook size="2.5rem" color="white" />{" "}
                 </Link>
             </div>
+
             <span className="footer__copy">
                 &#169; CarboBasic. All rights reserved
             </span>
