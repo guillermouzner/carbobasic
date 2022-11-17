@@ -15,7 +15,6 @@ const Contatc = () => {
   } = useForm()
 
   const onSubmit = (data) => {
-    console.log('hola')
     console.log(data)
     reset()
   }
