@@ -1,0 +1,52 @@
+{
+	"eng": {
+		"contact": "Contact",
+		"name": "Name",
+		"company": "Company",
+		"position": "Position",
+		"email": "Email",
+		"telefono": "Telephone",
+		"help": "Let us know how we can help",
+		"Enquiries": {
+			"title": "Enquiries",
+			"p1": "For any inquiries, questions or commendations, please call: ",
+			"p2": "+447438389980",
+			"p3": " or fill out the following form."
+		},
+		"office": {
+			"title": "Head Office",
+			"p1": "20 Mableden Close Heald Green Cheadle Cheshire SK8 3DB United Kingdom"
+		},
+		"jobs": {
+			"title": "Job Applications",
+			"p1": "To apply for a job with Carbobasic, please send a cover letter together with your C.V. to: ",
+			"p2": "info@carbobasic.co.uk"
+		},
+		"error": "This field is required *"
+	},
+	"esp": {
+		"contact": "Contacto",
+		"name": "Nombre",
+		"company": "Compañia",
+		"position": "Posicion",
+		"email": "Email",
+		"telefono": "Teléfono",
+		"help": "Cuéntanos en qué podemos ayudar",
+		"Enquiries": {
+			"title": "Consultas",
+			"p1": "Para cualquier consulta, duda o recomendación, por favor llame al: ",
+			"p2": "+447438389980",
+			"p3": " o llene el formulario."
+		},
+		"office": {
+			"title": "Oficinas",
+			"p1": "central 20 Mableden Close Heald Green Cheadle Cheshire SK8 3DB Reino Unido"
+		},
+		"jobs": {
+			"title": "Solicitudes",
+			"p1": "Para solicitar un trabajo en Carbobasic, envíe una carta de presentación junto con su CV a: ",
+			"p2": "info@carbobasic.co.uk"
+		},
+		"error": "Campo requerido *"
+	}
+}

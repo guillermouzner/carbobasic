@@ -1,0 +1,70 @@
+{
+	"eng": {
+		"services": "Services",
+		"description__service": {
+			"content1": " provides Engineering Consultancy services for different stages of a project. The range of services are focused in Project and Process Engineering.",
+			"content2": "Conceptual Engineering, Feasibility Studies, FEED Studies, Detail Engineering, Pre-commissioning, Commissioning, Start-up, Test runs/Performance Tests. ",
+			"content3": " can offer their experience in a wide range of industries.",
+			"content4": " can produce process simulations for your project (static and dynamic), equipment sizing, flare systems design and rating, FAT & SAT and site surveys.",
+			"content5": "For projects in the South American region, we are also offering piping mounting and supervision for different types of industries, including Mining. "
+		},
+		"cyrogenic": {
+			"title": "Cyrogenic",
+			"content": "Liquified gases are used in many applications. For bulk transportation purposes, gases are liquified and stored in tanks on ships, trucks or rail-trucks. Normally, on-shore storage in tanks is at atmospheric pressure or it can be pressurised in bullets or spheres. It is not well defined at what point on the temperature scale refrigeration ends and cryogenics begins, but scientists assume a gas to be cryogenic if it can be liquefied at or below -150 °C, which the case of the LNG. Many projects include a regasification unit (onshore or FRU) that delivers gas for distribution or to a product user."
+		},
+		"petrochemical": {
+			"title": "Petrochemical",
+			"content": "Petrochemicals are the chemical products obtained from petroleum by refining. Some chemical compounds made from petroleum are also obtained from other fossil fuels, such as coal or natural gas, or renewable sources such as maize, palm fruit or sugar cane. Carbobasic offer their experience in petrochemical projects in engineering design for the high- and low-pressure polyethylene industry, among others."
+		},
+		"oilgas": {
+			"title": "Oil & Gas",
+			"content": "Petroleum engineers help find oil and gas to supply the necessity of the consumers. Engineers design and develop methods for separation and treatment of the different components of Petroleum and for processing the product for delivery at conditions that meet the regulations and international standards. Carbobasic expertise in the Oil & Gas industry is mainly based in gas treatment units and downstream units such as Claus and tail gas treatment plants, Naphtha Splitters, distillation units, hydrocarbon storage, utilities design and general equipment design among others."
+		},
+		"nuclear": {
+			"title": "Nuclear",
+			"content": "Large-scale nuclear is a very low-carbon technology, which provides a reliable baseload power at scale from a very small land area. As confirmed by the UN’s International Atomic Energy Agency, nuclear power plants ‘are among the safest and most secure facilities in the world’, and nuclear power is one of the safest forms of energy generation.Traditional nuclear power plants use heat produced during nuclear fission to produce steam.The steam is used to spin large turbines that generate electricity. Both the Committee on Climate Change and the International Energy Agency have highlighted the role for new nuclear electricity generating capacity, in partnership with renewables, as a key element of achieving net zero. A recent report by the UN Economic Commission for Europe was clear that “the world’s climate objectives will not be met if nuclear technologies are excluded” from future decarbonisation."
+		},
+		"hydrogen": {
+			"title": "Hydrogen",
+			"content": "Hydrogen and energy have a long shared history - powering the first internal combustion engines over 200 years ago to becoming an integral part of the modern refining industry. It is light, storable, energy-dense, and produces no direct emissions of pollutants or greenhouse gases. But for hydrogen to make a significant contribution to clean energy transitions, it needs to be adopted in sectors where it is almost completely absent, such as transport, buildings and power generation. The Future of Hydrogen provides an extensive and independent survey of hydrogen that lays out where things stand now; the ways in which hydrogen can help to achieve a clean, secure and affordable energy future; and how we can go about realising its potential."
+		},
+		"energy": {
+			"title": "Energy from Waste",
+			"content": "EfW is an energy recovery process that generates renewable power in the form of electricity, heat or transport fuels from the controlled incineration of residual waste. An EfW plant contributes towards carbon emissions reductions and the reuse and recycling of materials that would otherwise go to landfill. The energy from waste or waste-toenergy industry is continuing to advance to provide more than just a renewable power source."
+		}
+	},
+	"esp": {
+		"services": "Servicios",
+		"description__service": {
+			"content1": " brinda servicios de diseño de ingeniería para diferentes etapas de un proyecto. La gama de servicios está enfocada a la Ingeniería de Proyectos y Procesos.",
+			"content2": "Ingeniería Conceptual, Estudios de Factibilidad, Estudios FEED, Ingeniería de Detalle, Precommissioning, Comimissioning, Puesta en Marcha, Test Runs/ Performance Tests. ",
+			"content3": " puede ofrecer su experiencia en un amplio rango de industrias.",
+			"content4": " puede desarrollar simulaciones de proceso para sus proyectos (estáticas y dinámicas), dimensionamiento de equipos, diseño y verificación de sistemas de antorcha, FAT & SAT y supervisión de instalaciones.",
+			"content5": "Para proyectos en la región Sudamericana, estamos ofreciendo también montaje y supervisión de piping para diferentes tipos de industrias, incluyendo Minería."
+		},
+		"cyrogenic": {
+			"title": "Criogenicos",
+			"content": "Se utilizan en varias aplicaciones. Para fines de transporte a granel, los gases se licuan y almacenan en tanques en barcos, camiones o vagones de ferrocarril. Normalmente, el almacenamiento en tierra es en tanques a presión atmosférica o puede ser presurizado en cigarros o esferas. No está bien definido en qué punto de la escala de temperatura termina la refrigeración y comienza la criogenia, pero los científicos asumen que un gas es criogénico si puede licuarse a -150 °C o menos, como es el caso del GNL. Muchos proyectos incluyen una unidad de regasificación (en tierra o FRU) que entrega gas para su distribución o para un usuario del producto."
+		},
+		"petrochemical": {
+			"title": "Petroquimicos",
+			"content": "Los petroquímicos son los productos químicos que se obtienen del petróleo por refinación. Algunos compuestos químicos derivados del petróleo también se obtienen a partir de otros combustibles fósiles, como el carbón o el gas natural, o de fuentes renovables como el maíz, el fruto de la palma o la caña de azúcar. Carbobasic ofrece su experiencia en proyectos petroquímicos en diseños de ingeniería para la industria del polietileno de alta y baja densidad, entre otros."
+		},
+		"oilgas": {
+			"title": "Petroleo y Gas",
+			"content": "Los ingenieros en petróleo contribuyen al hallazgo de petróleo y gas para suplir las necesidades energéticas de los consumidores. Los ingenieros diseñan y desarrollan métodos para la separación y tratamiento de los diferentes componentes del petróleo y para el procesamiento del producto para su entrega en condiciones que cumplan con las normas y estándares internacionales. La experiencia de Carbobasic en la industria del gas y el petróleo se basa principalmente en unidades de tratamiento de gas y unidades downstream, como Claus y plantas de tratamiento de gas de cola, Splitters de nafta, unidades de destilación, almacenamiento de hidrocarburos, diseño de servicios y diseño de equipos en general, entre otros."
+		},
+		"nuclear": {
+			"title": "Nuclear",
+			"content": "Las instalaciones nucleares a gran escala representan una tecnología de muy baja huella de carbono, la cual provee una base de energía confiable a escala partiendo de un pequeño espacio para sus instalaciones. Tal lo confirmado por la Agencia de Energía Atómica de las Naciones Unidas, las plantas de energía nuclear ‘están entre las instalaciones más confiables y seguras en el mundo’, y la energía nuclear es una de las formas más seguras de generación de energía. Las plantas de energía nuclear tradicionales utilizan calor producido durante la fisión nuclear para producir vapor de agua. Este vapor se utiliza para movilizar grandes turbinas que generan electricidad. El Comité de Cambio Climático y la Agencia Internacional de Energía han destacado que el rol para la nueva capacidad de generación de energía eléctrica nuclear, junto con las energías renovables, son un elemento clave para alcanzar el cero neto en emisiones. Un reciente reporte de la Comisión Económica para Europa de las Naciones Unidas has sido claro indicando que “no se lograrán los objetivos climáticos del mundo si se excluye a las tecnologías nucleares” de las futuras descarbonizaciones."
+		},
+		"hydrogen": {
+			"title": "Hidrogeno",
+			"content": "El hidrógeno y la energía tienen un gran historial compartido - desde energizar los primeros motores a combustión interna hace más de 200 años hasta convertirse en una parte integral de la industria moderna del refino. Es liviano, almacenable, denso en energía y no produce emisiones directas de contaminantes o gases de efecto invernadero. Pero para que el hidrógeno pueda tener una contribución importante a la transición a energías limpias, necesita ser adoptado en sectores donde está casi ausente, como ser el transporte, edificios y generación de energía. El futuro del hidrógeno proporciona un estudio extenso e independiente del hidrógeno que establece la situación actual; las formas en que el hidrógeno puede ayudar a lograr un futuro energético limpio, seguro y asequible; y cómo podemos aprovechar su potencial."
+		},
+		"energy": {
+			"title": "Energía de residuos",
+			"content": "Energía de residuos es un proceso de recuperación de energía que genera energía renovable en la forma de electricidad, calor o transporte de combustibles a partir de la incineración controlada de residuos. Una planta de Energía a partir de desechos contribuye a la reducción de emisiones de carbono y el reuso y reciclaje de materiales que de otra manera irían a rellenos municipales o vertederos. La industria de Energía de residuos o Residuos a energía continúa avanzando para proporcionar no sólo una fuente de energía renovable."
+		}
+	}
+}

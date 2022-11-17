@@ -1,0 +1,474 @@
+{
+	"eng": {
+		"projects": "Projects",
+		"industries": {
+			"title": "Industries",
+			"viewMore": "View More",
+			"modal": "Industries",
+			"content": {
+				"p1": {
+					"p1": "Oil & Gas",
+					"p2": " (upstream, midstream and downstream)"
+				},
+				"p2": "Petrochemicals",
+				"p3": "LNG terminals",
+				"p4": "Cryogenics",
+				"p5": "FLNG, FPSO, FSRU projects",
+				"p6": "Gas Treatment Units",
+				"p7": "Flare Systems and Utilities",
+				"p8": "Waste Water Treatment",
+				"p9": "Nuclear",
+				"p10": "Hydrogen",
+				"p11": "Energy from Waste (EfW)"
+			}
+		},
+		"project": {
+			"title": "Projects",
+			"viewMore": "View More",
+			"modal": "Projects",
+			"content": {
+				"p1": "Conceptual Studies",
+				"p2": "Feasibility Studies",
+				"p3": "FEED Studies",
+				"p4": "Detail Engineering",
+				"p5": "Pre-Commissioning / Commissioning / Start-up",
+				"p6": "Test Run / Performance Test",
+				"p7": "Troubleshooting",
+				"p8": "Maintenance",
+				"p9": "Piping mounting and supervision (South American region)"
+			}
+		},
+		"services": {
+			"title": "Services",
+			"viewMore": "View More",
+			"modal": "Services",
+			"content": {
+				"p1": "Engineering Consultancy",
+				"p2": "Project and Process Engineering development",
+				"p3": {
+					"p1": "Equipment Sizing & Design ",
+					"p2": "(vessels, S&T heat exchangers, Air Coolers)"
+				},
+				"p4": "Dynamic Simulations",
+				"p5": {
+					"p1": "Flare Systems design and rating ",
+					"p2": "(UniSim Flare)"
+				},
+				"p6": "FAT & SAT",
+				"p7": "Site surveys",
+				"p8": {
+					"p1": "Piping mounting and supervision",
+					"p2": ""
+				}
+			}
+		},
+		"expertise": {
+			"title": "Expertise",
+			"viewMore": "View More",
+			"modal": "Expertise",
+			"content": {
+				"p1": {
+					"p1": "Cryogenic terminals ",
+					"p2": "(LNG, LPG, Ethane, Ethylene, Propane, Propylene, etc)"
+				},
+				"p2": "Liquefied gas carriers",
+				"p3": "Dehydration Units",
+				"p4": {
+					"p1": "LTS ",
+					"p2": "(Low Temperature Separation)"
+				},
+				"p5": "Claus Units and Tail Gas Treatment",
+				"p6": {
+					"p1": "MRU ",
+					"p2": "(Mercury Removal Units)"
+				},
+				"p7": "Gas terminals",
+				"p8": "Brownfield projects & revamps",
+				"p9": "Energy from Waste (EfW)",
+				"p10": "Hydrogen projects"
+			}
+		},
+		"clients": {
+			"title": "Clients",
+			"viewMore": "View More",
+			"modal": "Clients",
+			"content": {
+				"p1": "Costain",
+				"p2": "TGE Marine GmbH",
+				"p3": "Kew Technology",
+				"p4": "Gas and Heat S.p.A.",
+				"p5": "United Utilities plc",
+				"p6": "Babcock - Cavendish Nuclear",
+				"p7": "Simon Carves Engineering Ltd"
+			}
+		},
+		"proyectsRecord": "Projects Record",
+		"carbobasic": {
+			"p1": {
+				"year": 2022,
+				"p1": "Process Engineering for FEED Studies in the petrochemical sector. Client Simon Carves (Manchester, UK)."
+			},
+			"p2": {
+				"year": 2022,
+				"p1": "Process Engineering in a Conceptual Study for the nuclear industry. Client Babcock - Cavendish Nuclear (Birchwood, UK)."
+			},
+			"p3": {
+				"year": 2021,
+				"p1": " Project Engineering Management for Proposals of LNG and other cryogenics barges and carriers. Client Gas and Heat (Pisa, Italy)."
+			},
+			"p4": {
+				"year": 2021,
+				"p1": "Project Engineering Management for a COMAH Assurance project for the new appointed low tier COMAH site in the Waste Water Treatment sector. Client United Utilities Manchester Bioresources Centre (MBC)."
+			},
+			"p5": {
+				"year": 2021,
+				"p1": "EfW projects. Process Engineering for Extended Basic Engineering and Detail Engineering projects. Client KEW Technology (Birmingham, UK)."
+			},
+			"p6": {
+				"year": 2020,
+				"p1": "UniSim Flare simulations, vent systems verification for LNG and other cryogenic carriers. Process Engineer of FSU-FRU Detail Engineering project. Client TGE Marine GmbH (Bonn, Germany)."
+			},
+			"p7": {
+				"year": 2019,
+				"p1": "px heat exchanger (Saint Fergus, Scotland). FEED study Process Engineering. Client Costain, final user px."
+			}
+		},
+		"tge": {
+			"working": "For TGE Gas Engineering",
+			"p1": {
+				"year": 2019,
+				"p1": "Propylene Sphere Tank Project (Bataan, Philippines). Process Engineering for Pre-Commissioning and Construction stages for Whessoe (Makati, Philippines), final user Petron."
+			},
+			"p2": {
+				"year": 2018,
+				"p1": "LPG Peak Shaving plant Avonmouth (Avonmouth, UK). Process Engineering for a FEED study, final user Flogas."
+			},
+			"p3": {
+				"year": 2018,
+				"p1": "FSU-FRU LNG (Ghana). Detail Engineering for TGE Marine GmbH, final user Gasfin S.A."
+			},
+			"p4": {
+				"year": 2017,
+				"p1": "Butane Storage Tank and Terminal (Rotterdam, Holland). Process Engineering for a FEED study, final user HES."
+			},
+			"p5": {
+				"year": 2017,
+				"p1": "LNG Bunkering (Tallin, Estonia). Process Engineering for a Conceptual Study, final user AS Vopak E.O.S."
+			},
+			"p6": {
+				"year": 2016,
+				"p1": "Ethane Storage Terminal (Grangemouth, Scotland). Commissioning Engineer, final user INEOS."
+			},
+			"p7": {
+				"year": 2015,
+				"p1": "Ethane Storage Terminal (Grangemouth, Scotland). Operating Instructions for operators, final user INEOS."
+			},
+			"p8": {
+				"year": 2015,
+				"p1": "5100 cbm LNG Carrier (South Korea). Process Engineering for a Conceptual Study for TGE Marine GmbH, final user Hanjin Industries and Construction."
+			},
+			"p9": {
+				"year": 2015,
+				"p1": "Beynes Dehydration Unit (Paris, France). Performance Test, final user Storengy."
+			},
+			"p10": {
+				"year": 2014,
+				"p1": "BOG Recondenser (Boryeong, South Korea). Design and Detail Engineering of a BOG Recondenser, final user GS Engineering."
+			},
+			"p11": {
+				"year": 2014,
+				"p1": "Zangzhou LNG Terminal (Zangzhou, China). Process Engineering for a FEED Study, final user CNOOC-Fujian."
+			},
+			"p12": {
+				"year": 2013,
+				"p1": "As Sarah VI Dehydration Unit (Lybia). Process Engineering for a Detail Engineering EP+CS project, final user Wintershall."
+			}
+		},
+		"evangelista": {
+			"working": "For A-Evangelista S.A.",
+			"p1": {
+				"year": "2011-12",
+				"p1": "LNG Regasification Plant (Puerto Cuatreros, Buenos Aires Province, Argentina). Process Engineering for a Conceptual and Feasibility Study, final user YPF S.A."
+			},
+			"p2": {
+				"year": 2011,
+				"p1": "Pipelines for Fire Fighting System, Fire & Gas Detection Instruments System. (Canning, Buenos Aires Province, Argentina). Project Engineering for a Detail Engineering and Construction, final user A-Evangelista S.A."
+			},
+			"p3": {
+				"year": "2009-12",
+				"p1": "Sulfur Recovery Unit (Montevideo, Uruguay). EPC Project. Process Engineering and Engineering Coordination for a Detail Engineering, Construction, Pre-commissioning & Commissioning project, final user ANCAP."
+			},
+			"p4": {
+				"year": 2008,
+				"p1": "Topping Plant (Trompeteros, Peru). Process Engineering for Detail Engineering, site supervision, Pre-commissioning & Commissioning stages, final user Pluspetrol."
+			},
+			"p5": {
+				"year": 2007,
+				"p1": "LTS skids (with C2 & C3/C4 stabilizers). Process Engineering for Detail Engineering and Pre-commissioning of an EP+CS project for Tipiel Colombia."
+			},
+			"p6": {
+				"year": 2006,
+				"p1": "Splitter II (Luján de Cuyo, Mendoza Province, Argentina). Process Engineering for Detail Engineering and Head Commissioning Engineer for Construction and Performance Test, final user Repsol-YPF."
+			},
+			"p7": {
+				"year": "2005-06",
+				"p1": "CRU, Contaminants Removal Unit (Yacuiba, Bolivia). Process Engineering for Basic and Detail Engineering, Construction, Pre-commissioning, Commissioning, Start Up and Performance, final user Petrobras."
+			},
+			"p8": {
+				"year": 2005,
+				"p1": "LTS El Portón (El Portón, Neuquén Province, Argentina. Process Engineering for Basic and Detail Engineering and Pre-commissioning, final user Repsol-YPF."
+			},
+			"p9": {
+				"year": 2005,
+				"p1": "Carina & Aries LTS (Rio Grande, Tierra del Fuego province, Argentina, for Total E&P). Pre-commissioning Process Engineer. Support from office to Commissioning team on site."
+			}
+		},
+		"other": {
+			"working": "For other Companies",
+			"p1": {
+				"year": 2004,
+				"p1": "Agrochemicals production (Zárate, Buenos Aires Province, Argentina). Manufacturing Engineer at IPESA S.A. (now Agrofina S.A.)"
+			},
+			"p2": {
+				"year": 2003,
+				"p1": "Process Engineer, Industrial Safety and Risks Analyst (Buenos Aires city, Argentina). Project Engineering for Hazardous Areas studies, QRA, and main industrial risks analysis studies for various projects at E.I.S.S.A. (Estudio Ingeniero Solano S.A.)."
+			}
+		}
+	},
+	"esp": {
+		"projects": "Proyectos",
+		"industries": {
+			"title": "Industrias",
+			"viewMore": "Ver Mas",
+			"modal": "Industrias",
+			"content": {
+				"p1": {
+					"p1": "Petróleo y gas",
+					"p2": " (upstream y downstream)"
+				},
+				"p2": "Petroquímica",
+				"p3": "LNG",
+				"p4": "Criogénicos",
+				"p5": "FLNG, FPSO, FSRU",
+				"p6": "Unidades de tratamiento de gas",
+				"p7": "Sistemas de antorcha y servicios públicos",
+				"p8": "Tratamiento de aguas residuales",
+				"p9": "Nuclear",
+				"p10": "Hidrógeno",
+				"p11": "Energía de residuos (EfW)"
+			}
+		},
+		"project": {
+			"title": "Proyectos",
+			"viewMore": "Ver Mas",
+			"modal": "Proyectos",
+			"content": {
+				"p1": "Estudios Conceptuales",
+				"p2": "Estudios de Viabilidad",
+				"p3": "Estudios FEED",
+				"p4": "Ingeniería de Detalle",
+				"p5": "Precommissioning / Commissioning / Puesta en Marcha",
+				"p6": "Test Run / Performance Test",
+				"p7": "Troubleshooting",
+				"p8": "Mantenimiento",
+				"p9": " Montaje de piping"
+			}
+		},
+		"services": {
+			"title": "Servicios",
+			"viewMore": "Ver Mas",
+			"modal": "Servicios",
+			"content": {
+				"p1": " Consultoría de ingeniería",
+				"p2": "Desarrollo de ingeniería de proyectos y procesos",
+				"p3": {
+					"p1": "Dimensionamiento y diseño de equipos ",
+					"p2": "(recipientes, intercambiadores de calor casco y tubos, aeroenfriadores)"
+				},
+				"p4": "Simulaciones dinámicas",
+				"p5": {
+					"p1": "Diseño y análisis de sistemas de antorcha ",
+					"p2": "(UniSim Flare)"
+				},
+				"p6": "FAT & SAT",
+				"p7": "Inspección de instalaciones",
+				"p8": {
+					"p1": "Montaje y supervisión de montaje ",
+					"p2": "(región sudamericana)"
+				}
+			}
+		},
+		"expertise": {
+			"title": "Experiencia",
+			"viewMore": "Ver Mas",
+			"modal": "Experiencia",
+			"content": {
+				"p1": {
+					"p1": "Terminales criogénicas ",
+					"p2": "(GNL, GLP, Etano, Etileno, Propano, Propileno, etc)"
+				},
+				"p2": "Cargueros de gases licuados",
+				"p3": "Unidades de Deshidratación",
+				"p4": {
+					"p1": "LTS ",
+					"p2": "(Separación a Baja Temperatura)"
+				},
+				"p5": "Unidades Claus y Tratamiento de gas de cola",
+				"p6": {
+					"p1": "MRU ",
+					"p2": "(Unidades de Remoción de Mercurio)"
+				},
+				"p7": "Terminales de gas",
+				"p8": "Proyectos Brownfield & revamps",
+				"p9": "Energía a partir de desechos",
+				"p10": "Proyectos de hidrógeno"
+			}
+		},
+		"clients": {
+			"title": "Clientes",
+			"viewMore": "Ver Mas",
+			"modal": "Clientes",
+			"content": {
+				"p1": "Costain",
+				"p2": "TGE Marine GmbH",
+				"p3": "Kew Technology",
+				"p4": "Gas and Heat S.p.A.",
+				"p5": "United Utilities plc",
+				"p6": "Babcock - Cavendish Nuclear",
+				"p7": "Simon Carves Engineering Ltd"
+			}
+		},
+		"proyectsRecord": "Registro de Proyectos",
+		"carbobasic": {
+			"p1": {
+				"year": 2022,
+				"p1": "Ingeniería de Procesos para estudios FEED en el sector petroquímico. Cliente Simon Carves (Manchester, UK)."
+			},
+			"p2": {
+				"year": 2022,
+				"p1": "Ingeniería de Procesos para Estudio Conceptual en la industria nuclear. Cliente Babcock - Cavendish Nuclear (Birchwood, UK)."
+			},
+			"p3": {
+				"year": 2021,
+				"p1": "Ingeniería de Proyecto para licitaciones para cargueros y barcazas de LNG and y otros productos criogénicos. Cliente Gas and Heat (Pisa, Italy)"
+			},
+			"p4": {
+				"year": 2021,
+				"p1": "Ingeniería de Proyecto para el aseguramiento del cumplimiento de regulaciones COMAH para las instalaciones recientemente calificadas como instalaciones COMAH de bajo nivel en el sector del Tratamiento de aguas residuales. Cliente United Utilities Manchester Bioresources Centre (MBC)."
+			},
+			"p5": {
+				"year": 2021,
+				"p1": "Proyectos EfW (Energía de residuos). Ingeniería de Procesos para proyectos de Ingeniería Básica Extendida e Ingeniería de Detalle. Cliente KEW Technology (Birmingham, UK)"
+			},
+			"p6": {
+				"year": 2020,
+				"p1": "Simulaciones UniSim Flare, verificación de sistemas de ventilación para GNL y otros transportadores criogénicos. Ingeniero de Procesos del proyecto de Ingeniería de Detalle FSU-FRU. Cliente TGE Marine GmbH (Bonn, Alemania)."
+			},
+			"p7": {
+				"year": 2019,
+				"p1": "Intercambiador de calor px (Saint Fergus, Escocia). Estudio FEED Ingeniería de Procesos. Cliente Costain, usuario final px."
+			}
+		},
+		"tge": {
+			"working": "Para TGE Gas Engineering",
+			"p1": {
+				"year": 2019,
+				"p1": "Proyecto de Tanque de Esfera de Propileno (Bataan, Filipinas). Ingeniería de Procesos para las etapas de Pre-Comisionado y Construcción para Whessoe (Makati, Filipinas), usuario final Petron."
+			},
+			"p2": {
+				"year": 2018,
+				"p1": "Planta GLP Peak Shaving Avonmouth (Avonmouth, Reino Unido). Ingeniería de Procesos para un estudio FEED, usuario final Flogas."
+			},
+			"p3": {
+				"year": 2018,
+				"p1": "FSU-FRU LNG (Ghana). Ingeniería de Detalle para TGE Marine GmbH, usuario final Gasfin SA"
+			},
+			"p4": {
+				"year": 2017,
+				"p1": "Tanque y Terminal de Almacenamiento de Butano (Rotterdam, Holanda). Ingeniería de Procesos para un estudio FEED, usuario final HES."
+			},
+			"p5": {
+				"year": 2017,
+				"p1": " Bunkering de GNL (Tallin, Estonia). Ingeniería de Procesos para un Estudio Conceptual, usuario final AS Vopak EOS"
+			},
+			"p6": {
+				"year": 2016,
+				"p1": "Terminal de Almacenamiento de Etano (Grangemouth, Escocia). Ingeniero de puesta en marcha, usuario final INEOS."
+			},
+			"p7": {
+				"year": 2015,
+				"p1": "Terminal de Almacenamiento de Etano (Grangemouth, Escocia). Instrucciones de funcionamiento para operadores, usuario final INEOS"
+			},
+			"p8": {
+				"year": 2015,
+				"p1": "5100 cbm LNG Carrier (Corea del Sur). Ingeniería de Procesos para un Estudio Conceptual para TGE Marine GmbH, usuario final Industrias y Construcción Hanjin."
+			},
+			"p9": {
+				"year": 2015,
+				"p1": "Unidad de deshidratación de Beynes (París, Francia). Prueba de rendimiento, usuario final Storengy."
+			},
+			"p10": {
+				"year": 2014,
+				"p1": "BOG Recondensador (Boryeong, Corea del Sur). Diseño e Ingeniería de Detalle de un Recondensador BOG, usuario final Ingeniería GS"
+			},
+			"p11": {
+				"year": 2014,
+				"p1": "Terminal de GNL de Zangzhou (Zangzhou, China). Ingeniería de Procesos para un Estudio FEED, usuario final CNOOC-Fujian."
+			},
+			"p12": {
+				"year": 2013,
+				"p1": "Como Unidad de Deshidratación Sarah VI (Libia). Ingeniería de Procesos para un proyecto de Ingeniería de Detalle EP+CS, usuario final Wintershall."
+			}
+		},
+		"evangelista": {
+			"working": "Para A-Evangelista S.A.",
+			"p1": {
+				"year": "2011-12",
+				"p1": "Planta de Regasificación de GNL (Puerto Cuatreros, Provincia de Buenos Aires, Argentina).Ingeniería de Procesos para Estudio Conceptual y de Factibilidad, usuario final YPF SA."
+			},
+			"p2": {
+				"year": 2011,
+				"p1": "Ductos para Sistema Contra Incendio, Sistema de Instrumentos de Detección de Fuego y Gas. (Conservas, Provincia de Buenos Aires, Argentina). Ingeniería de Proyecto para una Ingeniería de Detalle y Construcción, usuario final A-Evangelista SA"
+			},
+			"p3": {
+				"year": "2009-12",
+				"p1": "Unidad de Recuperación de Azufre (Montevideo, Uruguay). Proyecto EPC. Ingeniería de Procesos y Coordinación de Ingeniería para proyecto de Ingeniería de Detalle, Construcción, Precomisionamiento y Comisionamiento, usuario final ANCAP."
+			},
+			"p4": {
+				"year": 2008,
+				"p1": "Planta Topping (Trompeteros, Perú). Ingeniería de Procesos para Ingeniería de Detalle, supervisión de obra, etapas de Precomisionamiento y Comisionamiento, usuario final Pluspetrol."
+			},
+			"p5": {
+				"year": 2007,
+				"p1": "Patines LTS (con estabilizadores C2 y C3/C4). Ingeniería de Procesos para Ingeniería de Detalle y Precomisionamiento de un proyecto EP+CS para Tipiel Colombia"
+			},
+			"p6": {
+				"year": 2006,
+				"p1": " Splitter II (Luján de Cuyo, Provincia de Mendoza, Argentina). Ingeniería de Procesos para Ingeniería de Detalle e Ingeniero Jefe de Puesta en Marcha de Construcción y Pruebas de Desempeño, usuario final RepsolYPF"
+			},
+			"p7": {
+				"year": "2005-06",
+				"p1": "CRU, Unidad de Remoción de Contaminantes (Yacuiba, Bolivia). Ingeniería de Procesos para Ingeniería Básica y de Detalle, Construcción, Precomisionamiento, Comisionamiento, Arranque y Desempeño, usuario final Petrobras. "
+			},
+			"p8": {
+				"year": 2005,
+				"p1": "LTS El Portón (El Portón, Provincia de Neuquén, Argentina. Ingeniería de Procesos para Ingeniería Básica, de Detalle y Precomisionamiento, usuario final Repsol-YPF."
+			},
+			"p9": {
+				"year": 2005,
+				"p1": "LTS Carina & Aries (Rio Grande, Provincia de Tierra del Fuego, Argentina, para Total E&P) Ingeniero de Procesos de Precomisionamiento Apoyo desde oficina al equipo de Comisionamiento en sitio."
+			}
+		},
+		"other": {
+			"working": "Para otras Empresas",
+			"p1": {
+				"year": 2004,
+				"p1": "Producción de agroquímicos (Zárate, Provincia de Buenos Aires, Argentina). Ingeniero de Manufactura en IPESA SA (ahora Agrofina SA) "
+			},
+			"p2": {
+				"year": 2003,
+				"p1": "Ingeniero de Procesos, Analista de Riesgos y Seguridad Industrial (Ciudad de Buenos Aires, Argentina). Estudios de Ingeniería de Proyectos para Áreas Explosivas, QRA, y principales estudios de análisis de riesgos industriales para diversos proyectos en EISSA (Estudio Ingeniero Solano SA)."
+			}
+		}
+	}
+}

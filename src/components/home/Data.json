@@ -1,10 +1,10 @@
 {
     "eng": {
-        "Title": "inggles",
-        "Description": "Translate web content into multiple language"
+        "title": "Leaders in",
+        "title_span": "Engineering Consultation"
     },
     "esp": {
-        "Title": "bocaaaaaaaaa",
-        "Description": "இணைய உள்ளடக்கத்தை பல மொழிகளில் மொழிபெயர்க்கவும்"
+        "title": "Consultora Lider en",
+        "title_span": "Ingenieria"
     }
 }

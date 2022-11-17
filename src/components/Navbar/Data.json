@@ -1,10 +1,20 @@
 {
     "eng": {
         "Title": "CarboBasic",
-        "Description": "Translate web content into multiple language"
+        "home": "home",
+        "about": "about",
+        "services": "services",
+        "projects": "projects",
+        "contact": "contact",
+        "blog": "blog"
     },
     "esp": {
-        "Title": "CarboBasic español",
-        "Description": "esto es una descripcion"
+        "Title": "CarboBasic",
+        "home": "home",
+        "about": "about",
+        "services": "servicios",
+        "projects": "portfolio",
+        "contact": "contacto",
+        "blog": "blog"
     }
 }

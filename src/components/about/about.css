@@ -69,6 +69,11 @@
     font-weight: bold;
 }
 
+.card__mission img {
+	border-radius: 50%;
+	
+}
+
 .card__aboutMe {
     margin-top: 2rem;
     display: grid;
@@ -78,7 +83,7 @@
 
 .card__aboutMe img{
     width: 500px;
-    border-radius: 1.5rem;
+  	border-radius: 1.5rem;
     justify-self: center;
     margin-right: 3rem;
 }

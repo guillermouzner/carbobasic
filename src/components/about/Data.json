@@ -1,0 +1,168 @@
+{
+	"eng": {
+		"description__about": {
+			"carbo": "Carbo",
+			"basic": "basic",
+			"p1": " is here to provide engineers and experts with many years of combined experience in the design, implementation and maintenance of industrial units and plants in different industries.",
+			"p2": "Our professionals include Chartered Engineers, Designers, Planners right through to Consultants.",
+			"p3": {
+				"p1": "For each project you have, ",
+				"p2": "Carbo",
+				"p3": "basic",
+				"p4": ", is your one stop consultation for the whole project."
+			},
+			"p4": {
+				"p1": "Get in touch today to let us know about your needs and how ",
+				"p2": "Carbo",
+				"p3": "basic",
+				"p4": " can make everything just that little bit easier."
+			}
+		},
+		"card__mission": {
+			"our_mission": {
+				"title": "Our Mission",
+				"mission": {
+					"p1": "To provide ",
+					"p2": "engineering",
+					"p3": " solutions of ",
+					"p4": "excellence",
+					"p5": " to companies around the world in the business of the Oil & Gas, Petrochemicals, Cryogenics, Mining, Nuclear and Hydrogen. "
+				}
+			},
+			"our_vision": {
+				"title": "Our Vision",
+				"vision": {
+					"p1": "To be ",
+					"p2": "leaders",
+					"p3": " in providing engineering solutions of ",
+					"p4": "excellence",
+					"p5": " around the world and to be respected and recognised as a ",
+					"p6": "transparent,",
+					"p7": " honest",
+					"p8": " and ",
+					"p9": "responsible",
+					"p10": " company."
+				}
+			},
+			"our_values": {
+				"title": "Our Values",
+				"values": {
+					"p1": "Carbo",
+					"p2": "basic",
+					"p3": " is inspired by the ",
+					"p4": "respect",
+					"p5": " to all the stakeholders in a project we undertake, the ",
+					"p6": "commitment",
+					"p7": " to every task we are trusted, the ",
+					"p8": "quality",
+					"p9": " of the engineering we provide and the ",
+					"p10": "safety",
+					"p11": " in our designs. Our ",
+					"p12": "achievements",
+					"p13": " build up the reputation of ",
+					"p14": " and the ",
+					"p15": "trust",
+					"p16": " of our clients in our work."
+				}
+			}
+		},
+		"meet_me": {
+			"whoiam": {
+				"title": "Who I am?",
+				"content": "Hi my name is Milton and I'm a graduated Chemical Engineer from the University of Buenos Aires, with a postgraduate degree in Career of Specialisation in Oil from the Institute of the Oil & Gas of the University of Buenos Aires."
+			},
+			"mywork": {
+				"title": "My Work",
+				"content1": "I have +20 years of experience as a Process Engineer in EPC projects in the Oil & Gas area of business and for petrochemicals, cryogenic terminals and gas treatment projects.",
+				"content2": "I am a chartered Engineer in the UK and a member of IChemE with a continuous collaboration with the institution as an active member of IChemE North West Members Group Commitee since 2016.",
+				"content3": {
+					"p1": "In 2019 I decided to offer my services to different industries by creating ",
+					"p2": " Engineering Ltd, and since then I could participate in diverse projects in different areas of business and in different countries, with a predominant participation in the UK."
+				}
+			}
+		}
+	},
+	"esp": {
+		"description__about": {
+			"carbo": "Carbo",
+			"basic": "basic",
+			"p1": " está aquí para proporcionar ingenieros con muchos años de experiencia combinada en el diseño, implementación y mantenimiento de unidades y plantas industriales en distintas industrias.",
+			"p2": "Nuestros profesionales incluyen ingenieros colegiados, diseñadores, planificadores y consultores.",
+			"p3": {
+				"p1": "Para cada proyecto que Usted tenga, ",
+				"p2": "Carbo",
+				"p3": "basic",
+				"p4": ", es su punto de consulta única para todo el proyecto."
+			},
+			"p4": {
+				"p1": "Póngase en contacto hoy para informarnos sobre sus necesidades y cómo ",
+				"p2": "Carbo",
+				"p3": "basic",
+				"p4": "  puede hacer que todo sea un poco más fácil"
+			}
+		},
+		"card__mission": {
+			"our_mission": {
+				"title": "Our Mission",
+				"mission": {
+					"p1": "Brindar soluciones de ",
+					"p2": "excelencia",
+					"p3": " en ",
+					"p4": "ingeniería",
+					"p5": " a empresas de todo el mundo en las áreas de negocios del Oil & Gas, Petroquímica, Criogénicos, Minería, Nuclear e Hidrógeno."
+				}
+			},
+			"our_vision": {
+				"title": "Our Vision",
+				"vision": {
+					"p1": "Ser ",
+					"p2": "lideres",
+					"p3": " en brindar soluciones de ingeniería de ",
+					"p4": "excelencia",
+					"p5": " alrededor del mundo y ser respetados y reconocidos como una empresa ",
+					"p6": "transparente,",
+					"p7": " honesta",
+					"p8": " y ",
+					"p9": "responsable",
+					"p10": "."
+				}
+			},
+			"our_values": {
+				"title": "Our Values",
+				"values": {
+					"p1": "Carbo",
+					"p2": "basic",
+					"p3": " se inspira en el ",
+					"p4": "respeto",
+					"p5": " a todas las partes interesadas en cada proyecto que emprendemos, el ",
+					"p6": "compromiso",
+					"p7": " con cada tarea que nos confían, la ",
+					"p8": "calidad",
+					"p9": " de la ingeniería que brindamos y la ",
+					"p10": "seguridad",
+					"p11": " en nuestros diseños. Nuestros ",
+					"p12": "logros",
+					"p13": " construyen la reputación de ",
+					"p14": " y la ",
+					"p15": "confianza",
+					"p16": " de nuestros clientes en nuestro trabajo."
+				}
+			}
+		},
+		"meet_me": {
+			"whoiam": {
+				"title": "Quien soy?",
+				"content": "Hola mi nombre es Milton y soy Ingeniero Químico egresado de la Universidad de Buenos Aires, con un posgrado en Carrera de Especialización en Petróleo del Instituto del Petróleo y Gas de la Universidad de Buenos Aires."
+			},
+			"mywork": {
+				"title": "Mi Trabajo",
+				"content1": "Tengo más de 20 años de experiencia como Ingeniero de Procesos en proyectos EPC en el área de negocios del Oil & Gas y para la industria petroquímica, terminales criogénicas y tratamiento de gases.",
+				"content2": "Soy ingeniero colegiado en el Reino Unido y miembro de IChemE con una colaboración continua con la institución como miembro activo del Comité del Grupo de Miembros del Noroeste de IChemE desde 2016.",
+				"content3": {
+					"p1": "En el 2019 decidí ofrecer mis servicios a distintas industrias creando a ",
+					"p2": " Engineering Ltd, y desde entonces he logrado participar en diversos proyecto en distintas areas de negocios en diferentes países, con mayor participación en el Reino Unido. "
+				}
+			}
+		}
+	}
+}

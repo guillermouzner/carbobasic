@@ -1,32 +1,34 @@
-import React, { useEffect, useState } from "react";
-import "./home.css";
-import milton from "../../assets/Milton.png";
-import Translation from "./Data.json";
+import React, { useEffect, useState, useContext } from 'react'
+import './home.css'
+import milton from '../../assets/Milton.png'
+import Translation from './Data.json'
+import { DataContex } from '../../context/DataContext'
 
-const Home = (props) => {
-    const [content, setContent] = useState({});
+const Home = () => {
+  const { idiom } = useContext(DataContex)
 
-    useEffect(() => {
-        if (props.language === "eng") {
-            setContent(Translation.eng);
-        } else if (props.language === "esp") {
-            setContent(Translation.esp);
-        }
-    }, [props.language]);
+  const [content, setContent] = useState({})
 
-    return (
-        <div className="container__home">
-            <div className="container__img">
-                <img src={milton} alt="home" />
-                <div className="container__p">
-                    <p>
-                        {content.title}Leaders in{" "}
-                        <span>Engineering Consultation</span>
-                    </p>
-                </div>
-            </div>
+  useEffect(() => {
+    if (idiom === 'English') {
+      setContent(Translation.eng)
+    } else if (idiom === 'Español') {
+      setContent(Translation.esp)
+    }
+  }, [idiom])
+
+  return (
+    <div className='container__home'>
+      <div className='container__img'>
+        <img src={milton} alt='home' />
+        <div className='container__p'>
+          <p>
+            {content.title} <span>{content.title_span}</span>
+          </p>
         </div>
-    );
-};
+      </div>
+    </div>
+  )
+}
 
-export default Home;
+export default Home
