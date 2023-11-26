@@ -6,21 +6,21 @@ export default function ServicesPage() {
       <div className="flex flex-col justify-center items-center gap-5 font-medium">
         <div className="flex flex-col gap-2">
           <p>
-            <span className="font-semibold text-blue-900">Carbo</span>
-            <span className="font-semibold text-green-600">Basic</span> provides Engineering
+            <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+            <span className="font-semibold text-green-600 uppercase">Basic</span> provides Engineering
             Consultancy services for different stages of a project. The range of services are
             focused in Project and Process Engineering.
           </p>
           <p>
             Conceptual Engineering, Feasibility Studies, FEED Studies, Detail Engineering,
             Pre-commissioning, Commissioning, Start-up, Test runs/Performance Tests.{" "}
-            <span className="font-semibold text-blue-900">Carbo</span>
-            <span className="font-semibold text-green-600">Basic</span> can offer their experience
+            <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+            <span className="font-semibold text-green-600 uppercase">Basic</span> can offer their experience
             in a wide range of industries.
           </p>
           <p>
-            <span className="font-semibold text-blue-900">Carbo</span>
-            <span className="font-semibold text-green-600">Basic</span> can produce process
+            <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+            <span className="font-semibold text-green-600 uppercase">Basic</span> can produce process
             simulations for your project (static and dynamic), equipment sizing, flare systems
             design and rating, FAT & SAT and site surveys.
           </p>
@@ -72,8 +72,8 @@ export default function ServicesPage() {
                 Petrochemicals are the chemical products obtained from petroleum by refining. Some
                 chemical compounds made from petroleum are also obtained from other fossil fuels,
                 such as coal or natural gas, or renewable sources such as maize, palm fruit or sugar
-                cane. <span className="font-semibold text-blue-900">Carbo</span>
-                <span className="font-semibold text-green-600">Basic</span> offer their experience
+                cane. <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+                <span className="font-semibold text-green-600 uppercase">Basic</span> offer their experience
                 in petrochemical projects in engineering design for the high- and low-pressure
                 polyethylene industry, among others.
               </p>
@@ -97,8 +97,8 @@ export default function ServicesPage() {
                 Engineers design and develop methods for separation and treatment of the different
                 components of Petroleum and for processing the product for delivery at conditions
                 that meet the regulations and international standards.{" "}
-                <span className="font-semibold text-blue-900">Carbo</span>
-                <span className="font-semibold text-green-600">Basic</span> expertise in the Oil &
+                <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+                <span className="font-semibold text-green-600 uppercase">Basic</span> expertise in the Oil &
                 Gas industry is mainly based in gas treatment units and downstream units such as
                 Claus and tail gas treatment plants, Naphtha Splitters, distillation units,
                 hydrocarbon storage, utilities design and general equipment design among others.

@@ -7,6 +7,16 @@ import {useI18n} from "../../../locales/client";
 
 import {cn} from "@/lib/utils";
 import {ProjectRecord} from "@/components/milton/project-record";
+import {
+  AlertDialog,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
+import {Button} from "@/components/ui/button";
 
 export default function PortfolioPage() {
   const t = useI18n();
@@ -21,60 +31,208 @@ export default function PortfolioPage() {
     <div className="flex flex-col gap-10">
       <div className="flex flex-col justify-center items-center gap-5 font-medium">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div className="relative cursor-pointer w-56 md:w-72 h-56 md:h-72">
-            <Image
-              priority
-              alt="industries"
-              className="object-cover w-full h-full rounded-xl"
-              height={288}
-              src="/industries.png"
-              width={288}
-            />
-            <p className="absolute top-0 left-1/2 transform -translate-x-1/2 text-white bg-green-600 px-6 py-2 rounded-md">
-              {t("portfolio1")}
-            </p>
-          </div>
+          <AlertDialog>
+            <AlertDialogTrigger asChild>
+              <Button
+                className="relative cursor-pointer w-56 md:w-72 h-56 md:h-72"
+                variant="milton"
+              >
+                <Image
+                  priority
+                  alt="industries"
+                  className="object-cover w-full h-full rounded-xl"
+                  height={288}
+                  src="/industries.png"
+                  width={288}
+                />
+                <p className="absolute top-[8px] left-1/2 transform -translate-x-1/2 text-white bg-green-600 px-6 py-2 rounded-md">
+                  {t("portfolio1")}
+                </p>
+              </Button>
+            </AlertDialogTrigger>
+            <AlertDialogContent>
+              <AlertDialogHeader className="flex flex-col items-center justify-center">
+                <AlertDialogTitle>
+                  {t("portfolio1")}
+                  <AlertDialogCancel className="absolute right-0 top-0 rounded-sm opacity-70 hover:opacity-100">
+                    X
+                  </AlertDialogCancel>
+                </AlertDialogTitle>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio39")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio40")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio41")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio42")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio43")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio44")}
+                </AlertDialogDescription>
+              </AlertDialogHeader>
+            </AlertDialogContent>
+          </AlertDialog>
 
-          <div className="relative cursor-pointer w-56 md:w-72 h-56 md:h-72">
-            <Image
-              alt="projects"
-              className="object-cover w-full h-full rounded-xl"
-              height={300}
-              src="/projects.png"
-              width={300}
-            />
-            <p className="absolute top-0 left-1/2 transform -translate-x-1/2 text-white bg-green-600 px-6 py-2 rounded-md">
-              {t("portfolio2")}
-            </p>
-          </div>
+          <AlertDialog>
+            <AlertDialogTrigger asChild>
+              <Button
+                className="relative cursor-pointer w-56 md:w-72 h-56 md:h-72"
+                variant="milton"
+              >
+                <Image
+                  alt="projects"
+                  className="object-cover w-full h-full rounded-xl"
+                  height={300}
+                  src="/projects.png"
+                  width={300}
+                />
+                <p className="absolute top-[8px] left-1/2 transform -translate-x-1/2 text-white bg-green-600 px-6 py-2 rounded-md">
+                  {t("portfolio2")}
+                </p>
+              </Button>
+            </AlertDialogTrigger>
+            <AlertDialogContent>
+              <AlertDialogHeader className="flex flex-col items-center justify-center">
+                <AlertDialogTitle>
+                  {t("portfolio2")}
+                  <AlertDialogCancel className="absolute right-0 top-0 rounded-sm opacity-70 hover:opacity-100">
+                    X
+                  </AlertDialogCancel>
+                </AlertDialogTitle>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio46")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio47")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio48")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio49")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio50")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio51")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio52")}
+                </AlertDialogDescription>
+              </AlertDialogHeader>
+            </AlertDialogContent>
+          </AlertDialog>
 
-          <div className="relative cursor-pointer w-56 md:w-72 h-56 md:h-72">
-            <Image
-              alt="services"
-              className="object-cover w-full h-full rounded-xl"
-              height={300}
-              src="/services.png"
-              width={300}
-            />
-            <p className="absolute top-0 left-1/2 transform -translate-x-1/2 text-white bg-green-600 px-6 py-2 rounded-md">
-              {t("portfolio3")}
-            </p>
-          </div>
+          <AlertDialog>
+            <AlertDialogTrigger asChild>
+              <Button
+                className="relative cursor-pointer w-56 md:w-72 h-56 md:h-72"
+                variant="milton"
+              >
+                <Image
+                  alt="services"
+                  className="object-cover w-full h-full rounded-xl"
+                  height={300}
+                  src="/services.png"
+                  width={300}
+                />
+                <p className="absolute top-[8px] left-1/2 transform -translate-x-1/2 text-white bg-green-600 px-6 py-2 rounded-md">
+                  {t("portfolio3")}
+                </p>
+              </Button>
+            </AlertDialogTrigger>
+            <AlertDialogContent>
+              <AlertDialogHeader className="flex flex-col items-center justify-center">
+                <AlertDialogTitle>
+                  {t("portfolio3")}
+                  <AlertDialogCancel className="absolute right-0 top-0 rounded-sm opacity-70 hover:opacity-100">
+                    X
+                  </AlertDialogCancel>
+                </AlertDialogTitle>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio53")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio54")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio55")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio56")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio57")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio58")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio59")}
+                </AlertDialogDescription>
+              </AlertDialogHeader>
+            </AlertDialogContent>
+          </AlertDialog>
 
-          <div className="relative cursor-pointer w-56 md:w-72 h-56 md:h-72">
-            <Image
-              alt="expertise"
-              className="object-cover w-full h-full rounded-xl"
-              height={300}
-              src="/expertise.png"
-              width={300}
-            />
-            <p className="absolute top-0 left-1/2 transform -translate-x-1/2 text-white bg-green-600 px-6 py-2 rounded-md">
-              {t("portfolio4")}
-            </p>
-          </div>
+          <AlertDialog>
+            <AlertDialogTrigger asChild>
+              <Button
+                className="relative cursor-pointer w-56 md:w-72 h-56 md:h-72"
+                variant="milton"
+              >
+                <Image
+                  alt="expertise"
+                  className="object-cover w-full h-full rounded-xl"
+                  height={300}
+                  src="/expertise.png"
+                  width={300}
+                />
+                <p className="absolute top-[8px] left-1/2 transform -translate-x-1/2 text-white bg-green-600 px-6 py-2 rounded-md">
+                  {t("portfolio4")}
+                </p>
+              </Button>
+            </AlertDialogTrigger>
+            <AlertDialogContent>
+              <AlertDialogHeader className="flex flex-col items-center justify-center">
+                <AlertDialogTitle>
+                  {t("portfolio4")}
+                  <AlertDialogCancel className="absolute right-0 top-0 rounded-sm opacity-70 hover:opacity-100">
+                    X
+                  </AlertDialogCancel>
+                </AlertDialogTitle>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio60")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio61")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio62")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio63")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio64")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio65")}
+                </AlertDialogDescription>
+                <AlertDialogDescription className="flex flex-col gap-1 text-base font-semibold">
+                  • {t("portfolio66")}
+                </AlertDialogDescription>
+              </AlertDialogHeader>
+            </AlertDialogContent>
+          </AlertDialog>
         </div>
-
         <div className="py-1 px-8 rounded-xl bg-green-600 text-lg text-blue-900 font-bold">
           <p>{t("portfolio5")}</p>
         </div>
@@ -85,13 +243,16 @@ export default function PortfolioPage() {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <ProjectRecord project={t("portfolio01")} year={2023} />
+          <ProjectRecord project={t("portfolio02")} year={2023} />
+          <ProjectRecord project={t("portfolio03")} year={2023} />
+          <ProjectRecord project={t("portfolio04")} year={2022} />
           <ProjectRecord project={t("portfolio6")} year={2022} />
-
           <ProjectRecord project={t("portfolio7")} year={2022} />
           <ProjectRecord project={t("portfolio8")} year={2021} />
           <ProjectRecord project={t("portfolio9")} year={2021} />
-          <ProjectRecord project={t("portfolio10")} year={2021} />
-          <ProjectRecord project={t("portfolio11")} year={2021} />
+          <ProjectRecord project={t("portfolio10")} year={2020} />
+          <ProjectRecord project={t("portfolio11")} year={2020} />
           <ProjectRecord project={t("portfolio12")} year={2019} />
         </div>
 

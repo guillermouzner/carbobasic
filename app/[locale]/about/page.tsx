@@ -10,22 +10,22 @@ export default async function AboutPage() {
       <div className="flex flex-col justify-center items-center gap-5">
         <div className="flex flex-col gap-2 font-medium">
           <p>
-            <span className="font-semibold text-blue-900">{t("carbo")}</span>
-            <span className="font-semibold text-green-600">{t("basic")}</span>
+            <span className="font-semibold text-blue-900 uppercase">{t("carbo")}</span>
+            <span className="font-semibold text-green-600 uppercase">{t("basic")}</span>
             {t("about")}
           </p>
           <p>{t("about1")}</p>
           <p>
             {t("about2")}
-            <span className="font-semibold text-blue-900">{t("carbo")}</span>
-            <span className="font-semibold text-green-600">{t("basic")}</span>
+            <span className="font-semibold text-blue-900 uppercase">{t("carbo")}</span>
+            <span className="font-semibold text-green-600 uppercase">{t("basic")}</span>
 
             {t("about3")}
           </p>
           <p>
             {t("about4")}
-            <span className="font-semibold text-blue-900">{t("carbo")}</span>
-            <span className="font-semibold text-green-600">{t("basic")}</span>
+            <span className="font-semibold text-blue-900 uppercase">{t("carbo")}</span>
+            <span className="font-semibold text-green-600 uppercase">{t("basic")}</span>
             {t("about5")}
           </p>
         </div>
@@ -36,7 +36,7 @@ export default async function AboutPage() {
               alt="mision"
               className="hidden sm:flex rounded-md"
               height={250}
-              src="/ourmision.jpg"
+              src="/_static/Mision.jpg"
               // style={{aspectRatio: "1"}}
               width={250}
             />
@@ -63,7 +63,7 @@ export default async function AboutPage() {
               </p>
             </div>
             <Image
-              alt="mision"
+              alt="vision"
               // className="w-44 h-44 object-contain hidden sm:flex"
               className="hidden sm:flex rounded-md"
               height={250}
@@ -77,21 +77,21 @@ export default async function AboutPage() {
               alt="values"
               className="hidden sm:flex rounded-md"
               height={250}
-              src="/ourvalues.jpg"
+              src="/_static/Valores.jpg"
               width={250}
             />
             <div className="flex flex-col gap-2 m-1 sm:m-4">
               <p className="text-2xl font-black text-green-600">{t("about23")}</p>
               <p>
-                <span className="font-semibold text-blue-900">Carbo</span>
-                <span className="font-semibold text-green-600">Basic</span>
+                <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+                <span className="font-semibold text-green-600 uppercase">Basic</span>
                 {t("about24")}
                 <span className="font-semibold text-green-600">{t("about25")}</span> {t("about26")}{" "}
                 <span className="font-semibold text-blue-900">{t("about27")}</span> {t("about28")}{" "}
                 <span className="font-semibold text-green-600">{t("about29")}</span> {t("about30")}{" "}
                 <span className="font-semibold text-green-600">{t("about31")}</span> {t("about32")}{" "}
-                <span className="font-semibold text-blue-900">Carbo</span>
-                <span className="font-semibold text-green-600">Basic</span>
+                <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+                <span className="font-semibold text-green-600 uppercase">Basic</span>
                 {t("about33")}
               </p>
             </div>
@@ -118,7 +118,12 @@ export default async function AboutPage() {
             <p>{t("about37")}</p>
             <p>{t("about38")}</p>
             <p>{t("about39")}</p>
-            <p>{t("about40")}</p>
+            <p>
+              {t("about40")}
+              <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+              <span className="font-semibold text-green-600 uppercase">Basic</span>
+              {t("about41")}
+            </p>
           </div>
         </div>
       </div>

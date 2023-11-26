@@ -6,8 +6,8 @@ export default function AboutPage() {
       <div className="flex flex-col justify-center items-center gap-5">
         <div className="flex flex-col gap-2 font-medium">
           <p>
-            <span className="font-semibold text-blue-900">Carbo</span>
-            <span className="font-semibold text-green-600">Basic</span> is here to provide engineers
+            <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+            <span className="font-semibold text-green-600 uppercase">Basic</span> is here to provide engineers
             and experts with many years of combined experience in the design, implementation and
             maintenance of industrial units and plants in different industries.
           </p>
@@ -16,14 +16,14 @@ export default function AboutPage() {
             Consultants.
           </p>{" "}
           <p>
-            For each project you have, <span className="font-semibold text-blue-900">Carbo</span>
-            <span className="font-semibold text-green-600">Basic</span> is your one stop
+            For each project you have, <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+            <span className="font-semibold text-green-600 uppercase">Basic</span> is your one stop
             consultation for the whole project.
           </p>{" "}
           <p>
             Get in touch today to let us know about your needs and how{" "}
-            <span className="font-semibold text-blue-900">Carbo</span>
-            <span className="font-semibold text-green-600">Basic</span> can make everything just
+            <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+            <span className="font-semibold text-green-600 uppercase">Basic</span> can make everything just
             that little bit easier.
           </p>
         </div>
@@ -83,16 +83,16 @@ export default function AboutPage() {
             <div className="flex flex-col gap-2 m-1 sm:m-4">
               <p className="text-2xl font-black text-green-600">Our Values</p>
               <p>
-                <span className="font-semibold text-blue-900">Carbo</span>
-                <span className="font-semibold text-green-600">Basic</span> is inspired by the
+                <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+                <span className="font-semibold text-green-600 uppercase">Basic</span> is inspired by the
                 <span className="font-semibold text-green-600">respect</span> to all the
                 stakeholders in a project we undertake, the{" "}
                 <span className="font-semibold text-blue-900">commitment</span> to every task we are
                 trusted, the <span className="font-semibold text-green-600">quality</span> of the
                 engineering we provide and the safety in our designs. Our{" "}
                 <span className="font-semibold text-green-600">achievements</span> build up the
-                reputation of <span className="font-semibold text-blue-900">Carbo</span>
-                <span className="font-semibold text-green-600">Basic</span> and the trust of our
+                reputation of <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+                <span className="font-semibold text-green-600 uppercase">Basic</span> and the trust of our
                 clients in our work.
               </p>
             </div>
@@ -132,8 +132,8 @@ export default function AboutPage() {
             </p>
             <p>
               In 2019 I decided to offer my services to different industries by creating{" "}
-              <span className="font-semibold text-blue-900">Carbo</span>
-              <span className="font-semibold text-green-600">Basic</span> Engineering Ltd, and since
+              <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+              <span className="font-semibold text-green-600 uppercase">Basic</span> Engineering Ltd, and since
               then I could participate in diverse projects in different areas of business and in
               different countries, with a predominant participation in the UK.
             </p>

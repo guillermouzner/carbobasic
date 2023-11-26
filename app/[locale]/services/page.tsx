@@ -10,13 +10,18 @@ export default async function ServicesPage() {
       <div className="flex flex-col justify-center items-center gap-5 font-medium">
         <div className="flex flex-col gap-2">
           <p>
-            <span className="font-semibold text-blue-900">Carbo</span>
-            <span className="font-semibold text-green-600">Basic</span> {t("services")}
+            <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+            <span className="font-semibold text-green-600 uppercase">Basic</span> {t("services")}
           </p>
-          <p>{t("services1")}</p>
           <p>
-            <span className="font-semibold text-blue-900">Carbo</span>
-            <span className="font-semibold text-green-600">Basic</span> {t("services2")}
+            {t("services1")}
+            <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+            <span className="font-semibold text-green-600 uppercase">Basic</span>
+            {t("services01")}
+          </p>
+          <p>
+            <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+            <span className="font-semibold text-green-600 uppercase">Basic</span> {t("services2")}
           </p>
           <p>{t("services3")}</p>
         </div>
@@ -27,7 +32,7 @@ export default async function ServicesPage() {
               alt="cyrogenic"
               className="rounded-xl order-2 md:order-1"
               height={250}
-              src="/cyrogenic.png"
+              src="/_static/Criogenicos.jpg"
               width={250}
             />
             <div className="flex flex-col gap-3 order-1 md:order-2">
@@ -43,7 +48,7 @@ export default async function ServicesPage() {
               alt="petrochemical"
               className="rounded-xl order-2 md:order-1"
               height={250}
-              src="/petrochemical.png"
+              src="/_static/Petroquimica.jpg"
               width={250}
             />
             <div className="flex flex-col gap-3 order-1 md:order-2">
@@ -51,8 +56,10 @@ export default async function ServicesPage() {
                 {t("services6")}
               </p>
               <p className="text-sm">
-                {t("services7")} <span className="font-semibold text-blue-900">Carbo</span>
-                <span className="font-semibold text-green-600">Basic</span> {t("services9")}
+                {t("services7")}{" "}
+                <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+                <span className="font-semibold text-green-600 uppercase">Basic</span>{" "}
+                {t("services9")}
               </p>
             </div>
           </div>
@@ -62,7 +69,7 @@ export default async function ServicesPage() {
               alt="oilgas"
               className="rounded-xl order-2 md:order-1"
               height={250}
-              src="/oilgas.png"
+              src="/_static/Oil-&-Gas.jpg"
               width={250}
             />
             <div className="flex flex-col gap-3 order-1 md:order-2">
@@ -70,17 +77,19 @@ export default async function ServicesPage() {
                 {t("services10")}
               </p>
               <p className="text-sm">
-                {t("services11")} <span className="font-semibold text-blue-900">Carbo</span>
-                <span className="font-semibold text-green-600">Basic</span> {t("services13")}
+                {t("services11")}{" "}
+                <span className="font-semibold text-blue-900 uppercase">Carbo</span>
+                <span className="font-semibold text-green-600 uppercase">Basic</span>{" "}
+                {t("services13")}
               </p>
             </div>
           </div>
           <div className="flex flex-col md:flex-row gap-6 items-center">
             <Image
-              alt="cyrogenic"
+              alt="Nuclear"
               className="rounded-xl order-2 md:order-1"
               height={250}
-              src="/cyrogenic.png"
+              src="/_static/Nuclear.jpg"
               width={250}
             />
             <div className="flex flex-col gap-3 order-1 md:order-2">
@@ -93,10 +102,10 @@ export default async function ServicesPage() {
 
           <div className="flex flex-col md:flex-row gap-6 items-center">
             <Image
-              alt="cyrogenic"
+              alt="Hidrogeno"
               className="rounded-xl order-2 md:order-1"
               height={250}
-              src="/cyrogenic.png"
+              src="/_static/Hidrogeno.jpg"
               width={250}
             />
             <div className="flex flex-col gap-3 order-1 md:order-2">
@@ -109,10 +118,10 @@ export default async function ServicesPage() {
 
           <div className="flex flex-col md:flex-row gap-6 items-center">
             <Image
-              alt="cyrogenic"
+              alt="Energy-from-waste"
               className="rounded-xl order-2 md:order-1"
               height={250}
-              src="/cyrogenic.png"
+              src="/_static/Energy-from-waste.jpg"
               width={250}
             />
             <div className="flex flex-col gap-3 order-1 md:order-2">
